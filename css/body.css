@@ -1,0 +1,159 @@
+.body {
+  padding: 2% 5%;
+  width: 71%;
+  min-height: 25%;
+  border-right: 1px solid #eaeaea;
+  float: left;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold !important;
+}
+
+.content {
+  flex: 1;
+}
+.footer {
+  margin-top: auto;
+  text-align: center;
+}
+.navbar {
+  justify-content: flex-end;
+}
+
+.bg-light {
+  border-bottom: 1px solid #d3eb9c;
+  padding: 10px 35px;
+  background-color: rgb(155, 237, 144) !important;
+}
+.branchSelect {
+  padding: 3% 0 0 5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 388px;
+  text-align: left;
+}
+input,
+select {
+  display: inline-block;
+  float: left;
+  background: #c7d2dc;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  margin: 3px;
+  padding: 2px;
+}
+.inputsidebar {
+  background: #23d3aa;
+  float: left;
+  width: 45px;
+  border: 1px solid #03c396;
+  margin: 4px;
+  color: #fff;
+  border-radius: 0px 4px 4px 0px;
+}
+.labs {
+  margin: 31px 0px;
+}
+.sgpa {
+  background: #55c4f0;
+  color: #f1c7c7;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.footer {
+  font-family: lato;
+  background: #3a3a3ac3;
+  color: #fff;
+  padding: 40px;
+  border-top: 1px solid #7a7a7a;
+  float: left;
+  width: 100%;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+
+.navbar-nav {
+  font-weight: 600;
+}
+a.nav-item.nav-link {
+  margin: 7px;
+  padding: 1px;
+  color: #3a3a3a !important;
+}
+.sidebar {
+  width: 29%;
+  float: right;
+  padding: 1%;
+}
+@media screen and (max-width: 992px) {
+  .body {
+    width: 100%;
+    float: none;
+    border-right: 0;
+  }
+  .sidebar {
+    width: 100%;
+    float: none;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+  }
+}
+input[type="reset"] {
+  float: right;
+  background: #de2c47;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+.download {
+  float: right;
+  background: #1db0e8;
+  color: #fff;
+  padding: 2px 9px;
+  border: 1px solid #1db0e8;
+  border-radius: 4px;
+  margin: 3px;
+}
+
+.visible {
+  display: none;
+}
+
+@media print {
+  .sidebar {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
+  .download {
+    display: none;
+  }
+  input[type="reset"] {
+    display: none;
+  }
+  .adsbygoogle {
+    display: none !important;
+  }
+}
